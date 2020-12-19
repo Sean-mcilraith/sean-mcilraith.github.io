@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+	<title>CSS CHEAT-SHEET</title>
+	<link rel="stylesheet" type="text/css"
+	href="style.css">
+	</head>
+<body>
+
+</body>
+
+
+
+
+
+
+
+
+<div style="overflow-x:auto;">
+		<table border="0"  cellpadding="7" cellspacing="0" width="500">
+		<caption> My Schedule </caption>
+		<tr><th>Period</th><th>Class</th></tr>
+		<tr><td align="center">1st</td><td align="center">Web Design</td></tr>
+		<tr><td align="center">2nd</td><td align="center">Social Studies</td></tr>
+		<tr><td colspan="2" align="center">Lunch</td><t</tr>
+		<tr><td align="center">3rd</td><td align="center">English</td></tr>
+		</table>
+	</div>
+
+
+.bg-img {
+  /* The image used */
+  background-image: url("img_nature.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}	

@@ -1,0 +1,904 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+
+}
+
+body{
+	background-color:#B4BF88;
+}
+
+
+header{
+	background: url("../images/home-image.jpg");
+	height: 100vh; 
+	
+	background-size:cover;
+	background:cover;
+	background-position:center center;
+	position:relative;
+	overflow:hidden;
+}
+
+nav{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	min-height:5vh;
+	background-color:rgba(255,255,255, 0.5);
+	padding:5px;
+}
+
+.nav-area {
+	display:flex;
+	justify-content:space-around;
+	width:50%;
+	
+}
+.burger{
+	display:none;
+}
+				
+header{
+	background: url("../images/home-image.jpg");
+	height: 100vh; 
+	width:100%;
+	background-size:cover;
+	background:cover;
+	background-position:center center;
+	position:relative;
+	overflow:hidden;
+}
+				}
+.nav-area ul{
+	list-style:none;
+}
+.nav-area li a{
+	
+	color: #203132;
+	text-decoration:none;
+	padding:10px 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	font-weight:10px;
+	list-style:none;
+	
+	
+}
+
+.nav-area li a:hover{
+	background:rgba(255,255,255, 0.6);
+	color:#333;
+	
+	
+}
+
+.burger div {
+		width:25px;
+		height:5px;
+		background-color:#203132;
+		margin:5px;
+		
+		
+}
+.burger {
+	display:hidden;
+	z-index:2;
+}
+
+
+.welcome-txt{
+	position:relative;
+	width:100%;
+	top:250px;
+	margin:auto;
+	padding:0;
+	text-align:center;
+	
+	}
+
+.welcome-txt h1{
+	padding:40px;
+	text-align:center;
+	color:#203132;
+	font-size:80px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+.welcome-txt a{
+	border:1px solid #fff;
+	padding:10px 25px;
+	text-decoration:none;
+	background-color:#B4BF88;
+	font-size:30px;
+	margin-top:20px;
+	display:inline-block;
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.welcome-txt a:hover{
+	background:#B4BF88;
+	color:#333;
+}
+
+
+.cta-page{
+	display:inline-block;
+}
+
+.about-article{
+	position:relative;
+	width:50%;
+	height:400px;
+	left:10px;
+	top:30px;
+	text-align:center;
+	
+}
+
+.about-img {
+	float:right;
+	width:50%;
+	margin:30px 0;
+	background-color:#B4BF88;
+}
+.doughy {
+	 opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.about-img:hover .doughy{
+	opacity:0.2;
+	
+}
+
+
+
+.heading2 h2{
+	font-family: 'Raleway', sans-serif;
+	font-size:40px;
+	text-align:center;
+	padding:10px;
+	
+}
+
+.about-article p {
+	
+	font-family: 'Cutive Mono', monospace;
+	line-height:30px;
+	word-spacing:10px;
+	text-align:center;
+	padding:10px;
+	margin:10px;
+}
+
+
+.about-us{
+	background: url("../images/ourstory-img.jpg");
+	height: 20vh; 
+	width:100%;
+	background-size:cover;
+	background:cover;
+	background-position:center center;
+	position:relative;
+	overflow:hidden;
+}
+.contact-link {
+	
+	background: url("../images/getintouch.jpg");
+	height: 20vh; 
+	width:100%;
+	background-size:cover;
+	background:cover;
+	background-position:center center;
+	position:relative;
+	margin:30px 0;
+	overflow:hidden;
+}
+.contact-link a
+.about-cta {
+	width:50%;
+	position:relative;
+	text-align:center;
+	
+
+}
+.about-cta a  {
+	
+	text-decoration:none;
+	background:rgba(255,255,255, 0.6);
+	font-size:30px;
+	display:inline-block;
+	color:#203132;
+	float:left;
+	width:80%;
+	display:inline-block;
+	font-family: 'Cutive Mono', monospace;
+}
+.about-cta :hover{
+	font-family: 'Cutive Mono', monospace;
+	
+	
+	color:#fff;
+	background-color:#203132;
+}
+
+.about-door{
+	width:50%;
+	float:left;
+	position:relative;
+	left:auto;
+	right:auto;
+	
+}
+.blue-door {
+	margin:50px;
+	position:relative;
+	left:90px;
+	
+}
+.about-cta a {
+	text-decoration:none;
+	background:rgba(255,255,255, 0.6);
+	font-size:60px;
+	display:inline-block;
+	color:#203132;
+	
+	font-family: 'Cutive Mono', monospace;
+}
+
+.contact-link a {
+	text-decoration:none;
+	background:rgba(255,255,255, 0.6);
+	font-size:60px;
+	display:inline-block;
+	color:#203132;
+	
+	float:right;
+	font-family: 'Cutive Mono', monospace;
+}
+.contact-link a :hover{
+	font-family: 'Cutive Mono', monospace;
+	color:#fff;
+	background-color:#203132;
+}
+.make-reservation-cta{
+	background: url("../images/reservation-img.jpg");
+	height: 20vh; 
+	width:100%;
+	background-size:cover;
+	background:cover;
+	background-position:center center;
+	position:relative;
+	overflow:hidden;
+}
+.reservation-link a {
+	text-decoration:none;
+	background:rgba(255,255,255, 0.6);
+	font-size:60px;
+	display:inline-block;
+	color:#203132;
+	
+	font-family: 'Cutive Mono', monospace;
+}
+.reservation-link a :hover {
+	font-family: 'Cutive Mono', monospace;
+	color:#fff;
+	background:#203132;
+}
+	
+
+
+
+	
+
+
+
+/* Footer */ 
+.footer{
+	
+	height:auto;
+	width:100%;
+	font-family:'Open Sans', sans-serif;
+	padding-top:40px;
+	color:#b4bf88;
+}
+.footer-content{
+	background-color:rgba (255, 255, 255, 0.8);
+	display:inline-block;
+	align-items:center;
+	width:100%;
+	color:#203132;
+	text-align:center;
+	margin:20px;
+}
+.footer-content h3 {
+	
+	font-size:30px;
+	line-height:3rem;
+	font-family:'Raleway', sans-serif;
+	
+}
+
+.socials {
+	list-style:none;
+	display:flex;
+	align-items:columns;
+	justify-content:space-around;
+	
+}
+
+/* MENU CSS */
+.menu-h1{
+	width:100%;
+	position:relative;
+	top:20px;
+	
+}
+
+
+
+
+
+.menu{
+	width:100%;
+	margin:auto;
+	height:auto;
+	border: none;
+
+}
+.menu-container h2{
+	width:100%;
+	text-align:center;
+	font-family:'Cutive Mono', monospace;
+	font-size:40px;
+	color:#203132;
+	
+	
+}
+
+.menu-container{
+	position:relative;
+	width:80%;
+	margin:auto;
+	top:40px;
+	border:1px solid #fff;
+	background-image:url("../images/menu-backdrop.jpg");
+	background-color: #b4bf88; /* Used if the image is unavailable */
+	height: auto; 
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	background-attachment: fixed;
+	
+	
+}
+
+.menu-page{
+	width:70%;
+	position:relative;
+	margin:20px auto;
+	
+	
+}
+.float-container{
+	width:100%;
+	height:auto;
+	
+}
+.float-child {
+	width:50%;
+	float:left;
+	padding:10px;
+	text-align:left;
+	font-family: 'Raleway', sans-serif;	
+	font-weight:6px;
+	background-color: #203132;
+	color:#fff;
+	
+}
+.float-child p {
+	font-family: 'Open Sans', sans-serif;
+}
+.float-child a {
+	font-family:'Cutive Mono', monospace;
+	text-align:center;
+	text-decoration:none;
+	font-size:15px;
+	color:#FBFAF5;
+}
+.wine-list{
+	width:100%;
+	position:relative;
+	text-align:center;
+	top:25px;
+	padding:30px;
+	background-color:#203132;
+	color:#FBFAF5;
+	
+	
+}
+.menu-content   {
+	width:100%;
+	text-align:left;
+}
+.menu-content h2{
+	font-family:'Raleway', sans-serif;
+	padding:10px;
+	color:#203132;
+	font-size:30px;
+	font-family: 'Raleway', sans-serif;
+	width:100%;
+	text-align:center;
+	background-color:#b4bf88;
+}
+
+.menu-content table{
+	color:#203132;
+	background-color:#b4bf88;
+	
+}
+.menu-content table td {
+	font-family:'Open Sans', sans-serif;
+}
+.menu-content th {
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+}
+
+
+	
+	
+}
+#appetizers {
+	background-color: #203132;
+	color: #b4bf88;
+}
+#pasta {
+	background-color:#FBFAF5;
+	color:#203132;
+}
+
+
+
+
+.menu-price {
+	border:1px solid #fff;
+	width:auto;
+	position:relative;
+	float:right;
+}
+
+.menu-row1{
+	width:100%;
+	border:1px solid #fff;
+}
+ 
+ .float-child th,td {
+	 padding:3px;
+	 font-family:'Open Sans',sans-serif;	 
+ }
+
+
+#bottom-float{
+	height:250px;
+	
+}
+
+.menu-container h1 {
+	
+	color:#203132;
+	font-size:60px;
+	font-family: 'Raleway', sans-serif;
+	width:100%;
+	text-align:center;
+}
+
+#dessert{
+	text-align:left;
+	background-color:#203132;
+	color:#FBFAF5;
+	}
+#wine {
+		padding:10px;
+		background-color:#FBFAF5;
+		color:#203132;
+	}
+	
+	/*About Us Page*/
+	.menu-container h2{
+	width:100%;
+	text-align:center;
+	font-family:'Cutive Mono', monospace;
+	font-size:40px;
+	color:#203132;
+	
+	
+}
+
+.menu-container-2{
+	position:relative;
+	width:80%;
+	margin:auto;
+	top:40px;
+	padding-bottom:10px;
+	background-image:url("../images/menu-backdrop.jpg");
+	background-color: #b4bf88; 
+	height: auto; 
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	
+}
+.menu-container-2 h1 {
+	
+	color:#203132;
+	font-size:60px;
+	font-family: 'Raleway', sans-serif;
+	width:100%;
+	text-align:center;
+}
+.menu-container-2 h2{
+	width:100%;
+	text-align:center;
+	font-family:'Cutive Mono', monospace;
+	font-size:40px;
+	color:#203132;
+	
+	
+}
+
+.About-container{
+	width:70%;
+	position:relative;
+	margin:20px auto;
+	
+}
+.About-container p{
+	background:rgba(255,255,255, 0.8);
+	padding:10px;
+	font-family:'Cutive Mono', monospace;
+	font-size:20px;
+	
+}
+.our-suppliers{
+	width:100%;
+	text-align:center;
+}
+.our-suppliers a{
+	border:1px solid #fff;
+	padding:10px 25px;
+	text-decoration:none;
+	background-color:#B4BF88;
+	font-size:30px;
+	margin-top:20px;
+	margin-bottom:20px;
+	display:inline-block;
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+}
+.opening-times {
+	 max-height : 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:90px;
+ 
+ 
+
+}	
+
+.opening-times th {
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	font-size:30px;
+	padding:10px;
+	position:relative;
+	left:130px;
+	margin:30px;
+	
+}
+.opening-times  tr td{
+	font-family:'Cutive Mono', monospace;
+	font-size:30px;
+	text-align:center;
+	width:20vw;
+	 background-color:rgba(255,255,255, 0.8);
+	 margin:auto;
+	
+	
+}
+label {
+	font-family:'Open Sans', sans-serif ;
+	font-weight:6px;
+	font-size:16px;
+	background:rgba (255, 255,255, 0.8);
+	color:black;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  
+
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+  background-color: #b4bf88;
+  color: #203132;
+  padding: 12px 20px;
+  border: none;
+ display:flex;
+	justify-content:center;
+	width:100vh;
+	margin-left:100px;
+	font-size:25px;
+	font-family:'Cutive Mono', monospace;
+	
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #203132;
+  color:#b4bf88;
+  
+}
+
+
+@media (max-width: 600px){
+	.float-child {
+	width:100%;
+	float:left;
+	padding:10px;
+	text-align:left;
+	font-family: 'Raleway', sans-serif;	
+	font-weight:6px;
+	background-color: #203132;
+	color:#fff
+	}
+	
+	.menu-page{
+	width:90%;
+	position:relative;
+	margin:20px auto;
+	}
+	
+	#wine {
+		height:280px;
+	}
+	
+	.menu-content table{
+	color:#203132;
+	background-color:#b4bf88;
+	text-align:center;
+}
+	.menu-container h1, h2 {
+		background-color:rgba(255,255,255, 0.5);
+	}
+	
+	}
+	
+	@media screen and (max-width:600px){
+body{
+	overflow-x:hidden;
+	}
+					
+.nav-area{
+	position:absolute;
+	left:0px;
+	list-style:none;
+	height:80vh;
+	top:70px;
+	background-color:#b4bf88;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	z-index:1;
+	width:50%;
+	transform:translateX(-100%);
+	transition:transform 0.5s ease-in;
+		}
+					.nav-area li {
+						opacity:1;
+					}
+					.burger{
+						display:block;
+						z-index:2;
+						cursor:pointer;
+					}
+	.about-article p{
+		
+	display:flex;
+	justify-content:center;
+	width:50vh;
+	top:10px;
+	margin:0px;
+	padding:0px;
+	
+}
+
+	
+.about-img {
+	display:none;
+}
+.about-article #remove-text {
+	display:none;
+}
+.join-cta  {
+
+	display:none;
+	
+}
+
+
+						
+				
+			.nav-active{
+				transform:translateX(0%);
+				}
+				
+			@keyframes navlinkFade{
+					from{	
+					opacity:0;
+					transform:translateX(50px);
+					}
+					to{
+						opacity:1;
+						transform:translateX(50px);
+					}
+					}
+				.nav-area li{
+				list-style:none;
+				}
+				.blue-door{
+					display:none;
+				}
+				.mobile-img{
+				
+				display:block;
+				
+				}
+				
+				
+				.welcome-txt h1{
+					padding:0px;
+					text-align:center;
+					color:#203132;
+					font-size:80px;
+					font-family: 'Raleway', sans-serif;
+					
+				}
+				.about-cta {
+					width:100%;
+					position:relative;
+					top:0px;
+					
+					left:0;
+					
+					text-align:center;
+				}
+				
+				.about-cta a  {
+	
+					text-decoration:none;
+					background:rgba(255,255,255, 0.6);
+					font-size:50px;
+					display:inline-block;
+					color:#203132;
+				}
+				.welcome-txt a{
+				border:1px solid #fff;
+				padding:10px 25px;
+				text-decoration:none;
+				background-color:#B4BF88;
+				font-size:40px;
+				margin-top:20px;
+				display:inline-block;
+				color:#fff;
+				font-family: 'Raleway', sans-serif;
+
+}
+				.contact-link{
+				position:relative;
+				top:-70px;
+				width:100%;
+				text-align:center;
+				margin:10px 10px;
+				padding:0;
+				}
+				
+			.contact-link a {
+				padding:0;
+				font-size:40px;
+			}
+				
+/*media screen CTAs */
+.contact-link{
+				position:relative;
+				top:-0px;
+				width:100%;
+				text-align:center;
+				margin:10px 0px;
+				padding:0;
+				}
+		.reservation-link a {
+	text-decoration:none;
+	background:rgba(255,255,255, 0.6);
+	font-size:30px;
+	display:inline-block;
+	color:#203132;
+	float:left;
+	width:80%;
+	display:inline-block;
+	font-family: 'Cutive Mono', monospace;
+}
+/* media queries opening hours */
+.opening-times {
+	 max-height : 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:60px;
+ 
+ 
+
+}	
+
+.opening-times th {
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+	padding:10px;
+	position:relative;
+	left:70px;
+}
+.opening-times  tr td{
+	font-family:'Cutive Mono', monospace;
+	font-size:16px;
+	text-align:center;
+	width:100vw;
+	 background-color:rgba(255,255,255, 0.8);
+	 margin:auto;
+	
+	
+}
+/* Submit button Contact us */ 
+	input[type=submit] {
+  background-color: #b4bf88;
+  color: #203132;
+  padding: 0px;
+  border: none;
+ position:relative;
+ width:30%;
+ text-align:center;
+	
+	font-size:25px;
+	font-family:'Cutive Mono', monospace;
+	
+  cursor: pointer;
+}
+.footer-content{
+	background-color:rgba (255, 255, 255, 0.8);
+	display:inline-block;
+	align-items:center;
+	width:100%;
+	color:#203132;
+	text-align:center;
+	margin:0px;
+	}			
+
+	}
